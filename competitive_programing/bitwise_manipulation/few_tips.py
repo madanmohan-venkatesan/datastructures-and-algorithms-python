@@ -17,3 +17,9 @@ def bit_1(x,bit):
     return x & 1<<bit
 
 #swap bits in a number
+# masking concepts
+# odd or even
+def odd_or_even(x):
+    # The LSB is the only bit for odd numbers, so if the last bit is set to 1, it is odd. 
+    #returns 1 if odd
+    return x & 1
